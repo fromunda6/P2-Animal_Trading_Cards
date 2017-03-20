@@ -1,0 +1,47 @@
+body{
+	font-family: arial;
+}
+img{
+	border: 2px solid gray;
+	border-radius: .5em;
+	padding: 4px;
+	align-content: center;
+	width: 300px;
+}
+#outerbox {
+	background-color: #2a4fc3;
+	border: 2px solid gray;
+	align-content: center;
+	border-radius: .5em;
+	padding: 4px;
+	width: 313px;
+}
+/*I was having trouble center-aligning my img and inner div
+within the outer div, thus the clunky width setting on
+'#outerbox'*/
+
+#innerbox {
+	border: inherit;
+	align-content: inherit;
+	border-radius: inherit;
+	padding: inherit;
+	width: 300px;
+}
+#factoid{
+	font-style: italic;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	font-style: italic;
+}
+span{
+	font-weight: bold;
+	font-style: normal;
+}
+/*the child-element-specific styling caused me significant trouble -
+remembering that the styling of 'most specificity' takes precedence
+over that of parent elements was definitely a light bulb*/
